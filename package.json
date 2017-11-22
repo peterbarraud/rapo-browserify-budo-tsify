@@ -1,0 +1,39 @@
+{
+  "name": "rapo-browserify-budo-tsify",
+  "version": "1.0.0",
+  "description": "A Browserify&Budo project to get started with Rapid (ra) Prototyping (po) using Typescript",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js --live --open -- -p [ tsify --noImplicitAny ]",
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbarraud/rapo-browserify-budo-tsify.git"
+  },
+  "keywords": [
+    "browserify",
+    "budo",
+    "prototyping"
+  ],
+  "author": "@gapeterb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterbarraud/rapo-browserify-budo-tsify/issues"
+  },
+  "homepage": "https://github.com/peterbarraud/rapo-browserify-budo-tsify#readme",
+  "devDependencies": {
+    "budo": "^10.0.4",
+    "file-copy": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "tsify": "^3.0.3",
+    "typescript": "^2.6.1",
+    "uglifycss": "0.0.27",
+    "uglifyify": "^4.0.4"
+  },
+  "dependencies": {
+    "domready": "^1.0.8"
+  }
+}
